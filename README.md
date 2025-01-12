@@ -1,8 +1,8 @@
-ASCII Image Converter
+# ASCII Image Converter
 
 This project is a simple Go-based tool that converts images to ASCII art representation.
 
-Features
+# Features
 
 Supports common image formats: JPEG, PNG, and GIF
 
@@ -10,36 +10,36 @@ Resizes images proportionally to fit the specified output width
 
 Maps image brightness to ASCII characters for visual representation
 
-Requirements
+# Requirements
 
 Go 1.18 or higher
 
 golang.org/x/image/draw package
 
-Installation
+# Installation
 
 Clone this repository:
 
 git clone https://github.com/yourusername/ascii-image-converter.git
 cd ascii-image-converter
 
-Install dependencies:
+# Install dependencies:
 
 go mod tidy
 
-Usage
+# Usage
 
 Place the image you want to convert in the project directory and update the image path in the code:
 
 imgPath := "image.jpg" // Replace with your image file name
 
-Run the program:
+# Run the program:
 
 go run main.go
 
 The generated ASCII art will be printed in the terminal.
 
-Example Output
+# Example Output
 
 Example of the ASCII representation:
 
@@ -48,7 +48,7 @@ Example of the ASCII representation:
 ########++++++++++++++++++++++++++++++
 --------------------------------------
 
-Customization
+# Customization
 
 Output Width: Adjust the constant outputWidth to change the width of the ASCII art output:
 
@@ -58,11 +58,11 @@ ASCII Characters: Modify the asciiChars string to use a different set of charact
 
 const asciiChars = "@%#*+=-:."
 
-Contributing
+# Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions and improvements.
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
